@@ -1,0 +1,4 @@
+*.log
+*cache*
+*.sock
+node_modules/

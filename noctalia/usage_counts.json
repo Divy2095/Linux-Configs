@@ -1,0 +1,10 @@
+{
+  "Applications": {
+    "/usr/share/applications/Alacritty.desktop": 1,
+    "/usr/share/applications/brave-browser.desktop": 9,
+    "/usr/share/applications/code.desktop": 5,
+    "/usr/share/applications/org.gnome.Nautilus.desktop": 5,
+    "/usr/share/applications/org.gnome.Software.desktop": 2,
+    "/usr/share/applications/org.mozilla.firefox.desktop": 1
+  }
+}
