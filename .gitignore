@@ -2,3 +2,19 @@
 *cache*
 *.sock
 node_modules/
+
+# Noctalia runtime data — not config
+noctalia/clipboard/
+noctalia/plugins/sources/
+noctalia/plugins/materialized/
+noctalia/community-templates/
+noctalia/community-palettes/
+noctalia/notification_history*
+noctalia/recently_used.json
+noctalia/usage_counts.json
+
+# Noctalia runtime/cache data — not config
+noctalia/plugin-cache/
+noctalia/plugins/
+noctalia/recently_used.json
+noctalia/usage_counts.json
