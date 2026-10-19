@@ -722,6 +722,25 @@ window-rule {
   }
 }
 
+window-rule {
+    match app-id="^steam_app"
+    open-floating true
+}
+
+/* Apps: blur them all without xray so it looks more realistic (excluding Zed). */
+
+window-rule {
+    match app-id="^dev\\.zed\\.Zed$"
+
+    opacity 0.93
+    draw-border-with-background false
+
+    background-effect {
+        blur true
+        xray true
+    }
+}
+
 /*
   Noctalia
   Disable xray on all our surfaces so it looks more realistic.
@@ -753,7 +772,7 @@ blur {
 }
 
 cursor {
-    xcursor-theme "Bibata-Modern-Ice"
+    xcursor-theme "Bibata-Modern-Amber"
     xcursor-size 24
 }
 
